@@ -1,0 +1,249 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(rgb(255, 255, 255) 10% ,rgb(99, 103, 141) ,rgb(112, 152, 115));
+  padding-bottom: 10rem;
+  min-height: 100vh;
+}
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+.card-containers{
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  text-align: center;
+  
+}
+.card-main>.img{
+  margin: 0.5rem;
+  width: 80%;
+  height: 70%;
+  border-radius: 1rem;
+}
+.school-name1{
+  margin-top: -2rem;
+}
+.school-name{
+  margin-top: -4rem;
+}
+
+.logo>img{
+  margin-top: 1rem; 
+ width: 50vh;
+}
+.school-name>h2{
+
+font-family: cursive;
+font-size: 40px;
+font-weight: bold;
+}
+.text{
+  color: black;
+}
+.enter-email{
+  margin-top: 0rem;
+}
+.school-logo{
+  width: 10rem;
+  height: 9rem;
+  background-color: whitesmoke;
+}
+.card-main{
+  background-image: linear-gradient(to right,rgb(109, 168, 117),rgba(40, 38, 38, 0.74));
+  width:20vw;
+  height:70vh;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 20px 5px black;
+}
+
+.card-view{
+  background-image: linear-gradient(to right,rgb(109, 168, 117),rgba(40, 38, 38, 0.74));
+  width:30vw;
+  height:90vh;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 20px 5px black;
+}
+.card-view>.img{
+  margin: 0.5rem;
+  width: 71%;
+  height: 55%;
+  border-radius: 1rem;
+}
+
+.title{
+  margin: -2rem 2rem;
+
+}
+.Children{
+  margin-top: 1rem;
+}
+.form-auth{
+  margin: 1rem 5rem;
+}
+.auth-logo>img{
+  width: 18vw;
+  height: 30vh;
+}
+.description>h4{
+  margin-top: 3rem;
+}
+.about-school{
+  margin: 1rem 1rem;
+  padding: 2rem;
+}
+
+.about{
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.establishing{
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.houses{
+  display:grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.gryffindor{
+  margin-top: 2rem;
+  
+  background-image: linear-gradient(rgb(219, 87, 77),rgb(197, 177, 64));
+  padding: 1rem 0.5rem;
+  height: 50rem;
+  overflow: scroll;
+}
+
+.slytherin{
+  margin-top: 2rem;
+  
+  background-image: linear-gradient(rgb(138, 145, 140),rgb(64, 155, 36));
+  padding: 1rem 0.5rem;
+  height: 50rem;
+  overflow: scroll;
+}
+
+.hufflepuff{
+  margin-top: 2rem;
+  
+  background-image: linear-gradient(rgb(138, 138, 131),rgb(224, 205, 33));
+  padding: 1rem 0.5rem;
+  height: 50rem;
+  overflow: scroll;
+}
+
+.ravenclaw{
+  margin-top: 2rem;
+  
+  background-image: linear-gradient(rgb(42, 68, 199),rgb(191, 204, 43));
+  padding: 1rem 0.5rem;
+  height: 50rem;
+  overflow: scroll;
+}
+
+.ButtonGroup{
+  margin-top: 1rem;
+  width: 80%;
+}
+.footer-image{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 2rem ;
+  padding: 2rem;
+ 
+
+}
+.footer-image>img{
+  width: 100%;
+}
+@media only screen and (max-width:1100px) {
+ 
+  .card-main{
+    background-image: linear-gradient(to right,rgb(109, 168, 117),rgba(40, 38, 38, 0.74));
+    width:30vw;
+    height: 90vh;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px 5px black;
+  } 
+  .school-logo{
+    width: 7rem;
+    height: 6rem;
+    background-color: whitesmoke;
+  }
+  .school-name>h2{
+
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: bold;
+    }
+}
+
+
+
+@media only screen and (max-width:765px) {
+ 
+  .card-main{
+    background-image: linear-gradient(to right,rgb(109, 168, 117),rgba(40, 38, 38, 0.74));
+    width:40vw;
+    height: 90vh;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px 5px black;
+  } 
+  .school-logo{
+    width: 6rem;
+    height: 5rem;
+    background-color: whitesmoke;
+  }
+
+  .school-name>h2{
+
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    }
+}
+
+
+@media only screen and (max-width:575.5px) {
+ 
+  .card-main{
+    background-image: linear-gradient(to right,rgb(109, 168, 117),rgba(40, 38, 38, 0.74));
+    width:70vw;
+    height: 90vh;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px 5px black;
+  } 
+  .logo>img{
+    margin-top: -1rem; 
+    margin-bottom: 1rem;
+   width: 30vh;
+  }
+  .school-logo{
+    width: 3rem;
+    height: 2rem;
+    background-color: whitesmoke;
+  }
+  .school-name>h2{
+
+    font-family: cursive;
+    font-size: 17px;
+    font-weight:bold;
+    margin-top: 0.5rem;
+    margin-bottom:2rem;
+    }
+
+    .title{
+      
+      font-size:10px ;
+    
+    }
+}
